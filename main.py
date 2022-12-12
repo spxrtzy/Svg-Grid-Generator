@@ -26,5 +26,5 @@ with open('test.svg', 'w') as f:
         heightSpace += HEIGHTSPACE
         widthSpace += WIDTHSPACE
 
-    f.write("<svg/>")
+    f.write("\n\n<svg/>")
     f.close()
